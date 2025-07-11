@@ -27,6 +27,7 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <a href="#home" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Home</a>
               <a href="#services" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Services</a>
+              <a href="FormProject" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Projects</a>
               <a href="#about" className="text-white hover:text-purple-400 transition-colors px-3 py-2">About</a>
               <a href="#contact" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Contact</a>
             </div>
@@ -47,6 +48,7 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-black/95">
               <a href="#home" className="text-white hover:text-purple-400 block px-3 py-2">Home</a>
               <a href="#services" className="text-white hover:text-purple-400 block px-3 py-2">Services</a>
+              <a href="FormProject" className="text-white hover:text-purple-400 block px-3 py-2">Projects</a>
               <a href="#about" className="text-white hover:text-purple-400 block px-3 py-2">About</a>
               <a href="#contact" className="text-white hover:text-purple-400 block px-3 py-2">Contact</a>
             </div>
