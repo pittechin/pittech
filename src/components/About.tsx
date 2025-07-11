@@ -31,7 +31,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Qriocity</span>
+              About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">PitTech</span>
             </h2>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
