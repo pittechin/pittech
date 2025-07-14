@@ -30,13 +30,13 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href='#services'>
+          <a href='https://forms.gle/KZvRWGmdDTj2wV4e8'>
           <button className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 flex items-center">
             Get Started
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </button>
           </a> 
-          <a href='#contact'>
+          <a href='https://forms.gle/KZvRWGmdDTj2wV4e8'>
           <button className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105">
             View Our Work
           </button>

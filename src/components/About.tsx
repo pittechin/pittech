@@ -44,10 +44,11 @@ const About = () => {
               of companies achieve their digital goals through strategic planning, creative design, 
               and technical excellence.
             </p>
-            
+            <a href="https://forms.gle/KZvRWGmdDTj2wV4e8" target="_blank" rel="noopener noreferrer">
             <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105">
               Learn More About Us
             </button>
+            </a>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
