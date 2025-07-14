@@ -9,7 +9,7 @@ const Footer = () => {
             Pit Tech
           </h3> */}
           <img
-                src="src\image\pit_tech_logo.png" // Replace with your logo path
+                src="src\image\title Logo.png" // Replace with your logo path
                 alt="Pit Tech Logo"
                 className="h-15 w-20 mx-auto mb-4" // Adjust height and width as needed
               />
@@ -22,7 +22,7 @@ const Footer = () => {
             {/* <span>Made with</span> */}
             {/* <Heart className="mx-2 text-red-500" size={16} /> */}
             <Brain className="mx-2 text-blue-500" size={20} />
-            <span>Pit Tech</span>
+            <span>PitTech</span>
             <Brain className="mx-2 text-blue-500" size={20} />
           </div>
           
