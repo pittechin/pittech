@@ -14,8 +14,8 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base:"/pittech/",
-  // base: mode === "development" ? "/" : "/Pittech/",
+  // base:"/pittech/",
+  base: mode === "development" ? "/" : "/Pittech/",
   //base:"/",
   resolve: {
     alias: {

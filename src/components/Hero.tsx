@@ -30,19 +30,19 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href='https://forms.gle/KZvRWGmdDTj2wV4e8'>
+          <a href='https://forms.gle/KZvRWGmdDTj2wV4e8' target='_blank' rel='noopener noreferrer'>
           <button className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 flex items-center">
             Get Started
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </button>
           </a> 
-          <a href='https://forms.gle/KZvRWGmdDTj2wV4e8'>
+          <a href='https://forms.gle/KZvRWGmdDTj2wV4e8' target='_blank' rel='noopener noreferrer'>
           <button className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105">
             View Our Work
           </button>
           </a>
         </div>
-        
+         
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="p-6">
             <h3 className="text-3xl font-bold text-white mb-2">500+</h3>
