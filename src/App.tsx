@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/pittech">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* <Route path="/FormProject" element={<FormProject />} /> */}
