@@ -1,5 +1,5 @@
 import { Brain } from 'lucide-react';
-
+import titleLogo from '@/image/title_Logo.png';
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-black to-gray-950 py-12 border-t border-purple-500/20">
@@ -9,7 +9,7 @@ const Footer = () => {
             Pit Tech
           </h3> */}
           <img
-                src="src\image\title Logo.png" // Replace with your logo path
+                src={titleLogo} // Replace with your logo path
                 alt="Pit Tech Logo"
                 className="h-15 w-20 mx-auto mb-4" // Adjust height and width as needed
               />

@@ -29,7 +29,7 @@ const Navbar = () => {
               <a href="#home" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Home</a>
               <a href="#services" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Services</a>
               {/* <a href="FormProject" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Projects Form</a> */}
-              <a href="ProjectList" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Projects </a>
+              <a href="#projectL" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Projects </a>
               <a href="#about" className="text-white hover:text-purple-400 transition-colors px-3 py-2">About</a>
               {/* <a href="#contact" className="text-white hover:text-purple-400 transition-colors px-3 py-2">Contact</a> */}
             </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <a href="#home" className="text-white hover:text-purple-400 block px-3 py-2">Home</a>
               <a href="#services" className="text-white hover:text-purple-400 block px-3 py-2">Services</a>
               {/* <a href="FormProject" className="text-white hover:text-purple-400 block px-3 py-2">Projects</a> */}
-              <a href="ProjectList" className="text-white hover:text-purple-400 block px-3 py-2">Projects List</a>
+              <a href="#ProjectL" className="text-white hover:text-purple-400 block px-3 py-2">Projects</a>
               <a href="#about" className="text-white hover:text-purple-400 block px-3 py-2">About</a>
               {/* <a href="#contact" className="text-white hover:text-purple-400 block px-3 py-2">Contact</a> */}
             </div>
