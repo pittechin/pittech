@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import titleLogo from '@/image/title_Logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 h-22 w-25 flex items-center justify-center">
             <a href="#">
               <img
-                src="src\image\title_Logo.png" // Replace with your logo path
+                src={`${import.meta.env.BASE_URL}image/title_Logo.png`} // src="src\image\title_Logo.png" // Replace with your logo path
                 alt="Pit Tech Logo"
                 className="h-20 w-20 object-contain"
               />
